@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入註冊頁</title>
+    <link rel="stylesheet" href="../static/css/sign-log-in.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#" method="post">
+                <h1>註冊頁面</h1>
+                <input type="text" placeholder="用戶名">
+                <input type="email" placeholder="信箱">
+                <input type="password" name="" id="" placeholder="密碼">
+                <input type="password" name="" id="" placeholder="確認密碼">
+                <button type="submit">註冊</button>
+            </form>
+        </div>
+        <div class="form-container log-in-container">
+            <form action="#" method="post">
+                <h1>登入頁面</h1>
+                <input type="email" placeholder="信箱">
+                <input type="password" name="" id="" placeholder="密碼">
+                <a href="#">忘記密碼</a>
+                <button type="submit">登入</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            
+            <div class="overlay">
+                <div class="overlay-pannel overlay-left">
+                    <h1>已經有帳號?</h1>
+                    <button class="ghost" id="logIn">登入</button>
+                </div>
+                <div class="overlay-pannel overlay-right">
+                    <h1>沒有帳號?</h1>
+                    <button class="ghost" id="signUp">註冊</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../static/js/sign-log-in.js"></script>
+</body>
+</html>
