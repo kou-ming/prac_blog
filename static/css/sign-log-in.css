@@ -43,8 +43,8 @@ a {
     background-image: url('../../img/logbg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 50rem;
-    background-position: 200px 80px;
+    background-size: cover;
+    /*background-position: 200px 80px;*/
     /* background-color: transparent; */
 
     border-radius: 7px;
